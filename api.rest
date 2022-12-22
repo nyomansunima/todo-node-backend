@@ -1,0 +1,10 @@
+# =============== AUTHENTICATION ===============
+
+### Auth With Email
+POST http://localhost:4000/api/auth/email-password
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "vibesonly156"
+}
